@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom, #6e7b8c, #b69198, #e7c7b0);
+}
+
+
+#svg-map path {
+  fill: #596266
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 12px Arial-BoldMT, sans-serif;
+  cursor: pointer
+}
+
+#svg-map a {
+  text-decoration: none
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+#svg-map a:hover path {
+  fill: #ecab91 !important
+}
+
+#svg-map .circle {
+  fill: #4a4a55
+}
+
+#svg-map a:hover .circle {
+  fill: #e09eca !important;
+  cursor: pointer
+}
+
+
+@media (max-width: 600px) {
+  svg{
+    width: 300px;
+    transform: scale(.9);
+  }
+}
+

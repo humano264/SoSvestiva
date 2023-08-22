@@ -18,40 +18,39 @@
     </header>
     <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
     <div class="overlay"></div>
-    <div class="text">
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true">
+
+      <div class="signup">
+          <form>
+              <label for="chk" aria-hidden="true">Cadastrar</label>
+              <input type="text" name="txt" placeholder="Username" required="">
+              <input type="email" name="email" placeholder="Email" required="">
+              <input type="Password" name="pswd" placeholder="Senha" required="">
+              <button>Cadastre-se</button>
+          </form>
+
+      </div>
       
-      <h2>Um site para todos que desejam entrar em uma Univeridade Federal </h2> 
-      
-      <p>Com o crescente acesso à internet e o aumento do número de estudantes buscando informações sobre
-        universidades federais, tornou-se cada vez mais necessário oferecer uma plataforma que facilite a escolha e
-        a decisão dos futuros universitários. É nesse contexto que surge o nosso projeto: um site que visa atender
-        às necessidades dos jovens do ensino médio que desejam ingressar em uma universidade federal.</p>
-        
-        <p>A proposta do nosso site é fornecer informações úteis e relevantes para ajudar o usuário a escolher a
-        universidade ideal, bem como auxiliá-lo na busca por moradias, restaurantes próximos e outras facilidades,
-        tornando todo o processo mais prático e acessível. Além disso, o site também disponibilizará dados sobre os
-        cursos oferecidos, as disciplinas mais cobradas e as pontuações mínimas exigidas em cada universidade.</p>
-       
-        <p>Acreditamos que nosso projeto será uma ferramenta indispensável para ajudar os jovens a alcançar seus sonhos
-        acadêmicos, oferecendo informações precisas e relevantes de forma acessível e fácil de usar. Por meio do
-        nosso site, esperamos contribuir para a formação de uma sociedade mais preparada e informada, que valorize a
-        educação e a busca pelo conhecimento.</p>
-      </p>
-      <a href="#">Explore</a>
-    </div>
-    <ul class="social">
-      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-    </ul>
-  </section>
+      <div class="login">
+          <form>
+              <label for="chk" aria-hidden="true">Entrar</label>
+              <input type="email" name="email" placeholder="Email" required="">
+              <input type="Password" name="pswd" placeholder="Senha" required="">
+              <button>Conectar-se</button>
+          </form>
+      </div>
+
+   </div>
+   </section>
+ 
   <div class="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Destination</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="paginas/mapa.html">Mapa</a></li>
+      <li><a href="paginas/login.html">Cadastrar e logar</a></li>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Chat</a></li>
     </ul>
   </div>
   <script src='../js/teste.js'></script>

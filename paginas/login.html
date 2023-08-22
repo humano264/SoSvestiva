@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/csslogin.css'>
-    <script src='../js/jslogin.js'></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/csslogin.css'>
+  <script src='main.js'></script>
 </head>
 <body>
-    
-         <div class="main">
-        <input type="checkbox" id="chk" aria-hidden="true">
+   <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+  <section class="showcase">
+    <header>
+      <h2 class="logo">SOS VESTIBA</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+  
 
-        <div class="signup">
-            <form>
-                <label for="chk" aria-hidden="true">Cadastrar</label>
-                <input type="text" name="txt" placeholder="Username" required="">
-                <input type="email" name="email" placeholder="Email" required="">
-                <input type="Password" name="pswd" placeholder="Senha" required="">
-                <button>Cadastre-se</button>
-            </form>
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true">
 
-        </div>
-        
-        <div class="login">
-            <form>
-                <label for="chk" aria-hidden="true">Entrar</label>
-                <input type="email" name="email" placeholder="Email" required="">
-                <input type="Password" name="pswd" placeholder="Senha" required="">
-                <button>Conectar-se</button>
-            </form>
-        </div>
+      <div class="signup">
+          <form>
+              <label for="chk" aria-hidden="true">Cadastrar</label>
+              <input type="text" name="txt" placeholder="Username" required="">
+              <input type="email" name="email" placeholder="Email" required="">
+              <input type="Password" name="pswd" placeholder="Senha" required="">
+              <button>Cadastre-se</button>
+          </form>
 
-     </div>
-     
+      </div>
+      
+      <div class="login">
+          <form>
+              <label for="chk" aria-hidden="true">Entrar</label>
+              <input type="email" name="email" placeholder="Email" required="">
+              <input type="Password" name="pswd" placeholder="Senha" required="">
+              <button>Conectar-se</button>
+          </form>
+      </div>
+
+   </div>
+   </div>
+   </section>
+ 
+  <div class="menu">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../paginas/mapa.html">Mapa</a></li>
+      <li><a href="../paginas/login.html">Cadastrar e logar</a></li>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Chat</a></li>
+    </ul>
+  </div>
+  <script src='../js/jslogin.js'></script>
 </body>
-
 </html>

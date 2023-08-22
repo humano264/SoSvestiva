@@ -199,25 +199,62 @@ header .logo
     padding-top: 100px;
     font-size: 30px;
   }
-  
+  .main{
+    z-index: 3;
+    width: 250px;
+    height: 500px;
+    
+}
 }
 
 /*CssLogin*/
 
+
+
+
 .main{
   z-index: 2;
-  width: 350px;
-  height: 450px;
-  background: rgb(255, 255, 255);
+  width: 50%;
+  height: 500px;
+  background: red;
   overflow: hidden;
-  background: #8b878d no-repeat center / cover;
-  border-radius: 50px;
+  background: url(rosa.jpg) no-repeat center / cover;
+  border-radius: 10px;
   box-shadow: 5px 20px 50px #131212;
+  top:15%;
   position:absolute;
-  top:20%;
-   
+  left: 25%;
+  right: 25%;
+  
+
+justify-content: center;
+align-items: center;
+}
+@media (min-width: 900px){
+  .main{
+    z-index: 3;
+    width: 30%;
+    height: 500px;
+    top:150px;
+    position: center;
+    left: 35%;
+    right: 35%;
 }
 
+}
+
+@media (max-width: 900px){
+  .main{
+    z-index: 3;
+    width: 80%;
+    height: 500px;
+    top:150px;
+    position: center;
+    left: 10%;
+    right: 10%;
+}
+
+}
 #chk{
   display: none;
 }
@@ -241,7 +278,7 @@ label{
 
 input{
   width: 60%;
-  height: 20px;
+  height: 30px;
   background: #e0dede;
   justify-content: center;
   display: flex;
